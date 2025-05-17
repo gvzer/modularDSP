@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -76,10 +76,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1061.0, 61.139650106430054, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 5"
 				}
 
@@ -176,10 +172,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 213.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 4"
 				}
 
@@ -215,6 +207,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1015.062036097049713, 188.490573704242706, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -286,8 +282,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.223978579044342, 495.331432998180389, 145.0, 22.0 ],
-					"text" : "jit.poke~ hgRecording 2 1"
+					"patching_rect" : [ 383.223978579044342, 495.331432998180389, 165.0, 22.0 ],
+					"text" : "jit.poke~ $0_hgRecording 2 1"
 				}
 
 			}
@@ -298,8 +294,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.025651216506958, 483.820826172828674, 211.815327525138855, 22.0 ],
-					"text" : "jit.poke~ hgRecording 2 0"
+					"patching_rect" : [ 27.025651216506958, 483.820826172828674, 165.0, 22.0 ],
+					"text" : "jit.poke~ $0_hgRecording 2 0"
 				}
 
 			}
@@ -330,12 +326,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 1015.062036097049713, 118.414228409528732, 207.0, 22.0 ],
-					"text" : "jit.matrix hgRecording 2 float32 10 10"
+					"patching_rect" : [ 1015.062036097049713, 118.414228409528732, 214.0, 35.0 ],
+					"text" : "jit.matrix $0_hgRecording 2 float32 10 10"
 				}
 
 			}
@@ -383,10 +380,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1015.062036097049713, 61.139650106430054, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 3"
 				}
 
@@ -399,10 +392,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 770.773860394954681, 60.987091392278671, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -765,9 +754,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -20,7 +20,7 @@ public class Trigger extends MSPObject {
     public Trigger() {
         declareInlets(new int[]{DataTypes.ALL, DataTypes.ALL, DataTypes.ALL, DataTypes.ALL}); // Declare 4 inlets
         declareOutlets(new int[]{SIGNAL, SIGNAL}); // Declare outlets for stereo output
-        //post("Trigger initialized.");
+        post("Trigger initialized.");
     }
 
     @Override

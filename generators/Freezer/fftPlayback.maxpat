@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -128,8 +128,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 195.686277717351913, 243.529415756464005, 124.0, 22.0 ],
-					"text" : "jit.peek~ playback 2 1"
+					"patching_rect" : [ 195.686277717351913, 243.529415756464005, 144.0, 22.0 ],
+					"text" : "jit.peek~ $0_playback 2 1"
 				}
 
 			}
@@ -140,8 +140,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 35.497837603092194, 243.529415756464005, 124.0, 22.0 ],
-					"text" : "jit.peek~ playback 2 0"
+					"patching_rect" : [ 35.497837603092194, 243.529415756464005, 144.0, 22.0 ],
+					"text" : "jit.peek~ $0_playback 2 0"
 				}
 
 			}
@@ -152,8 +152,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 178.649921476840973, 107.725614100694656, 104.0, 22.0 ],
-					"text" : "jit.matrix playback"
+					"patching_rect" : [ 178.649921476840973, 107.725614100694656, 124.0, 22.0 ],
+					"text" : "jit.matrix $0_playback"
 				}
 
 			}
@@ -177,10 +177,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.0, 101.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 3"
 				}
 
@@ -193,10 +189,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 178.649921476840973, 57.509156972169876, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -327,9 +319,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
